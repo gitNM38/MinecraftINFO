@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0 px;
+}
+html{
+    font-size: 0.8vm;
+}
+@font-face {
+    font-family:"Ramona";
+    src: url("ofont.ru_Ramona.ttf");
+}
+.body{
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    display: grid;
+    grid-template-rows: 30% 60% 10%;
+}
+.textContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textContainer div{
+    width: 40%;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Ramona";
+}
+.picturesContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.picturesContainer img{
+    width: 17%;
+}
+.buttonContainer{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+#button{
+    width: 10%;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: blue;
+    color: aliceblue;
+    box-shadow: 5px 5px rgb(112, 92, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#button:hover{
+    box-shadow: 1px 1px 1px rgb(112,92,65);
+} 
+#button:active{
+    box-shadow: inset 5px 5px 5px rgb(112,92,65);
+}
+
